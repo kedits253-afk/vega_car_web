@@ -1,0 +1,47 @@
+// src/data/quiz.json — Sample Vega EVX quiz. 6 questions with explanations.
+// NOTE: Several answers reference SPECULATIVE numbers (see specs.js disclaimer). Replace with
+// official Vega Insights / Peggy EVX data before launch and update `answer` indices accordingly.
+[
+  {
+    "id": "q1",
+    "question": "What type of vehicle is the Vega EVX?",
+    "options": ["Electric performance SUV", "Hybrid sedan", "Petrol off-roader", "Electric two-wheeler"],
+    "answer": 0,
+    "explanation": "The EVX is positioned as an all-electric performance SUV built on a skateboard EV platform."
+  },
+  {
+    "id": "q2",
+    "question": "What is the claimed driving range of the Vega EVX per full charge?",
+    "options": ["~150 km", "~300 km", "~550 km (claimed)", "Over 1000 km"],
+    "answer": 2,
+    "explanation": "SPECULATIVE/CLAIMED FIGURE — early announcements cited roughly 550 km. Always verify against official homologated figures."
+  },
+  {
+    "id": "q3",
+    "question": "Roughly how fast does the EVX accelerate from 0–100 km/h?",
+    "options": ["About 6 seconds", "Under 4 seconds", "Around 10 seconds", "About 15 seconds"],
+    "answer": 1,
+    "explanation": "SPECULATIVE — claimed dual-motor performance puts it in the sub-4-second bracket for a mid-size SUV."
+  },
+  {
+    "id": "q4",
+    "question": "Which charging standard capability has the EVX been highlighted with?",
+    "options": ["DC fast charging to ~80% in about one hour", "Wireless-only charging", "No fast charging", "Swappable battery only"],
+    "answer": 0,
+    "explanation": "SPECULATIVE — marketing emphasises DC fast charging reaching ~80% in around an hour depending on charger power."
+  },
+  {
+    "id": "q5",
+    "question": "Where is the Vega EVX primarily targeted for production and initial sales?",
+    "options": ["United States", "Germany", "India", "Japan"],
+    "answer": 2,
+    "explanation": "Vega (Peggy Motors / Vega Insights One) is an Indian startup; the EVX targets the Indian market first."
+  },
+  {
+    "id": "q6",
+    "question": "What does the interactive 'Model' page on this site let you do?",
+    "options": ["Configure paint only", "Orbit, zoom and jump to annotated points of interest", "Book a test drive payment", "Download raw CAD files"],
+    "answer": 1,
+    "explanation": "The Model page hosts a three.js orbit viewer with POI annotations that content sections can scroll/fly to."
+  }
+]

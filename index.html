@@ -1,0 +1,58 @@
+<!doctype html>
+<!-- index.html — SEO metadata, Open Graph, Twitter card, JSON-LD, no-JS fallback -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0f14" />
+
+    <!-- Primary SEO -->
+    <title>Vega EVX — Electric Performance SUV | Interactive 3D Experience</title>
+    <meta name="description" content="Explore the Vega EVX electric SUV in an interactive 3D scroll experience. View the model, read full specifications, and take the EVX quiz." />
+    <link rel="canonical" href="https://example.com/" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Vega EVX" />
+    <meta property="og:title" content="Vega EVX — Electric Performance SUV" />
+    <meta property="og:description" content="Interactive 3D showcase: scroll-driven cinematic tour, orbit viewer, specs and quiz." />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="/images/og-vega-evx.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vega EVX — Electric Performance SUV" />
+    <meta name="twitter:description" content="Scroll-driven 3D tour, orbit viewer, specs and quiz." />
+    <meta name="twitter:image" content="/images/og-vega-evx.jpg" />
+
+    <!-- Icons (placeholders — replace with official assets after licensing review) -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Vega EVX",
+        "brand": { "@type": "Brand", "name": "Vega" },
+        "category": "Electric SUV",
+        "description": "All-electric performance SUV showcased in an interactive 3D website.",
+        "image": "https://example.com/images/og-vega-evx.jpg"
+      }
+    </script>
+
+    <!-- Preconnect for CDN draco decoder if you host it remotely -->
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p>The Vega EVX interactive experience requires JavaScript. A static overview of the
+      Vega EVX electric SUV, its specifications and images is available on request.</p>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
